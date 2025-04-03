@@ -1,0 +1,103 @@
+.navbar{
+    display:flex;
+    padding:20px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    margin:auto
+}
+.logo{
+    font-size: 50px;
+    color:rgb(186, 50, 50)
+}
+.navbar-menu {
+    display:flex;
+    gap:20px;
+    color:cadetblue;
+    font-size: 18px;
+    list-style: none;
+}
+.navbar-right{
+    display:flex;
+    gap:40px;
+    align-items:center ;
+}
+.navbar-right button{
+    background-color: transparent;
+    font-size: 18px;
+    padding:10px 20px;
+    border: 1px solid burlywood;
+    border-radius:10px;
+    cursor:pointer;
+}
+.navbar button:hover{
+    background-color:cadetblue;
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+   
+}
+.navbar li{
+    cursor:pointer;
+}
+.navbar-basket-icon{
+    position:relative;
+
+}
+.navbar-basket-icon .dot{
+    position:absolute;
+    min-width: 10px;
+    min-height:10px;
+    border-radius: 5px;
+    background-color: tomato;
+    top: -8px;
+    right:-8px;
+}
+@media(max-width:1050px){
+    .navbar .logo{
+        width:140px;
+    }
+    .navbar-menu{
+        gap:20px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap:30px;
+    }
+    .navbar-right img{
+        width:22px
+    }
+    .navbar-right button{
+        padding:8px 5px;
+    }
+
+}
+
+@media(max-width:900px){
+    .navbar .logo{
+        width:120px;
+    }
+    .navbar-menu{
+        gap:15px;
+        font-size: 16px;
+    }
+    .navbar-right{
+        gap:20px;
+    }
+    .navbar-right img{
+        width:20px
+    }
+    .navbar-right button{
+        padding:7px 8px;
+        font-size:15px;
+    }
+
+}
+@media(max-width:750px){
+    .navba-menu{
+        display:none;
+    }
+
+}

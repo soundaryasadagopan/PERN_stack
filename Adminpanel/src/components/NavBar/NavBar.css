@@ -1,0 +1,13 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:8px 10%;
+}
+.navbar .logo{
+    width:max(10%,80px);
+    color:brown
+}
+.navbar .profile{
+    width:max(4vw,40px);
+}

@@ -1,0 +1,40 @@
+.admin{
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    background-color:white;
+    align-items: center;
+}
+ .admin-content{
+     place-self:center;
+     width:max(23vw,330px);
+     background-color: whitesmoke;
+     color:gray;
+     display:flex;
+     flex-direction: column;
+     gap:25px;
+     padding:15px 20px;
+     border-radius: 15px;
+     font-size: 12px;
+ }
+ .login-title{
+     display: flex;
+     justify-content:space-between;
+     align-items:center;
+     gap:40px;
+ }
+ .login-title h3{
+     color:black;
+ 
+ }
+ .login-title img{
+     width:20px;
+     cursor:pointer;
+ }
+ .admin span{
+    color:black;
+    font-size: 15px;
+ }
+ .login-check p{
+    margin:5px;
+ }
